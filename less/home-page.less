@@ -1,14 +1,32 @@
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
+section {
+    background-color: rgba(255, 255, 255, 0.493);
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
 
-.img {
-    height: 500px;
-    width: 300px;
-}
+    h1 {
+        font-size: 7.5rem;
+        font-family: @font-1;
+    }
 
-#images {
-    .flex();
-    justify-content: space-around;
+    p {
+        font-size: 1.8rem;
+        font-family: @font-3;
+    }
+
+    img {
+        width: 375px;
+        height: 250px;
+    }
+
+    .beginning-content {
+        .max-spacing();
+    }
+
+    .content {
+        .flex();
+        .max-spacing();
+    }
 }
