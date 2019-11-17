@@ -1,5 +1,7 @@
 # Marketing
 
+https://docs.google.com/document/d/1q-TKcFg9DIh3P67UiSsWU1DmxFhwQvz3ry684ADDl4M/edit?usp=sharing
+
 ## Proposal ##
 
 * What problem does your app solve?
