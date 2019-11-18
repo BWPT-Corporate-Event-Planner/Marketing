@@ -125,6 +125,19 @@ table {
 html {
   font-size: 62.5%;
 }
+body {
+  background-image: url("https://images.pexels.com/photos/16408/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"), linear-gradient(to right, #232526, #414345);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.spacing {
+  margin: 10px;
+  padding: 10px;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -153,19 +166,6 @@ footer p {
   margin: 10px;
   padding: 10px;
   font-family: 'Quintessential', cursive;
-}
-body {
-  background-image: url("https://images.pexels.com/photos/16408/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"), linear-gradient(to right, #232526, #414345);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-.spacing {
-  margin: 10px;
-  padding: 10px;
 }
 section {
   background-color: rgba(255, 255, 255, 0.493);
@@ -196,4 +196,106 @@ section .content {
   justify-content: space-around;
   margin: 20px;
   padding: 20px;
+}
+body {
+  background-image: url(https://www.flightcentre.com.au/cms_images/web_images/experts/news/networking-1.jpg), linear-gradient(to right, #232526, #414345);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Quintessential', cursive;
+}
+p {
+  font-size: 1rem;
+  font-family: roboto;
+  padding: 20px;
+  line-height: 1.4;
+  width: 80%;
+  text-align: center;
+  margin: 40px;
+  color: purple;
+}
+.round-content {
+  display: flex;
+  flex-flow: row;
+  padding: 5px;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/16408/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"), linear-gradient(to right, #232526, #414345);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  font-family: 'Quintessential', cursive;
+}
+.container2 {
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: black;
+}
+.input,
+.msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+.login .input {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.login .input:last-child {
+  margin-right: 0;
+}
+.msg .area {
+  height: 200px;
+  border: 2px solid red;
+}
+.btn {
+  width: 250px;
+  background: black;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.input:focus,
+.msg .area:focus {
+  border: 2px solid #486255;
+}
+::-webkit-input-placeholder {
+  font-family: 'Quintessential', cursive;
 }
