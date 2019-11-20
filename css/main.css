@@ -127,12 +127,17 @@ html {
 }
 body {
   background-image: url("https://images.pexels.com/photos/16408/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"), linear-gradient(to right, #232526, #414345);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .container {
   width: 960px;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
 }
 .spacing {
   margin: 10px;
@@ -151,6 +156,12 @@ nav a {
   margin: 10px;
   padding: 10px;
   font-family: 'Quintessential', cursive;
+  color: black;
+}
+@media (max-width: 500px) {
+  nav a {
+    font-size: 2rem;
+  }
 }
 footer {
   background-color: rgba(255, 255, 255, 0.493);
@@ -179,6 +190,11 @@ section h1 {
   font-size: 7.5rem;
   font-family: 'Parisienne', cursive;
 }
+@media (max-width: 500px) {
+  section h1 {
+    font-size: 5.5rem;
+  }
+}
 section p {
   font-size: 1.8rem;
   font-family: 'EB Garamond', serif;
@@ -191,11 +207,43 @@ section .beginning-content {
   margin: 20px;
   padding: 20px;
 }
+@media (max-width: 500px) {
+  section .beginning-content {
+    margin: 5px;
+    padding: 5px;
+  }
+}
 section .content {
   display: flex;
   justify-content: space-around;
   margin: 20px;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  section .content {
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+  }
+  section .content h2 {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+section .content-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  section .content-2 {
+    flex-direction: column-reverse;
+  }
+  section .content-2 h2 {
+    margin: 20px;
+    padding: 20px;
+  }
 }
 body {
   background-image: url(https://www.flightcentre.com.au/cms_images/web_images/experts/news/networking-1.jpg), linear-gradient(to right, #232526, #414345);
@@ -298,4 +346,50 @@ p {
 }
 ::-webkit-input-placeholder {
   font-family: 'Quintessential', cursive;
+}
+.event {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .event {
+    flex-direction: column;
+  }
+}
+.event .container3 {
+  background-color: rgba(255, 255, 255, 0.493);
+  border: 2px solid white;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 80px;
+}
+@media (max-width: 500px) {
+  .event .container3 {
+    padding: 0px;
+    margin: 20px;
+  }
+}
+.event .log-in {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .event .log-in {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+.event .log-in input {
+  margin: 10px;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .event .log-in input {
+    margin: 5px;
+    padding: 5px;
+  }
 }

@@ -1,0 +1,44 @@
+.event {
+    .flex();
+    @media @mobile {
+            flex-direction: column;
+            
+        }
+
+    .container3 {
+        background-color: rgba(255, 255, 255, 0.493);
+        border: 2px solid white;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        padding: 80px;
+
+        @media @mobile {
+            padding: 0px;
+            margin:20px
+        }
+    }
+
+    .log-in {
+        .flex();
+        flex-direction: column;
+
+        .max-spacing();
+
+        @media @mobile {
+            .media-spacing();
+        }
+
+        input {
+            .min-spacing();
+            @media @mobile {
+                .media-spacing();
+            }
+        }
+    }
+
+    
+}
+
+
+

@@ -4,13 +4,17 @@ html {
 
 body {
     background-image: url("https://images.pexels.com/photos/16408/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"), linear-gradient(to right, #232526, #414345);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
+
+    @media @mobile {
+        width: 400px;
+    }
 }
 
 .spacing {
