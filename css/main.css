@@ -267,17 +267,8 @@ p {
   flex-flow: row;
   padding: 5px;
 }
-@media (max-width: 500px) {
-  .content2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-    text-align: center;
-  }
-  .main-section {
-    font-size: 15px;
-    text-align: center;
-  }
+
+
 }
 @font-face {
   font-family: 'Roboto';
@@ -344,7 +335,6 @@ p {
   text-align: center;
   border-radius: 5px;
   margin: 0 auto;
-  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -357,17 +347,10 @@ p {
 }
 @media (max-width: 500px) {
   .login {
-    font-size: 15px;
+    font-size: 20px;
   }
   .container2 p {
     text-align: center;
-    width: 48%;
-  }
-  .msg {
-    width: 48%;
-  }
-  .subject {
-    width: 48%;
   }
 }
 .event {
