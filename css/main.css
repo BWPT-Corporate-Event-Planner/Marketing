@@ -219,7 +219,6 @@ section .content {
   margin: 20px;
   padding: 20px;
 }
-
 @media (max-width: 500px) {
   section .content {
     flex-direction: column;
@@ -246,12 +245,6 @@ section .content-2 {
     padding: 20px;
   }
 }
-body {
-  background-image: url(https://www.flightcentre.com.au/cms_images/web_images/experts/news/networking-1.jpg), linear-gradient(to right, #232526, #414345);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
 h2 {
   font-size: 2rem;
   text-align: center;
@@ -374,7 +367,26 @@ p {
 ::-webkit-input-placeholder {
   font-family: 'Quintessential', cursive;
 }
-
+@media (max-width: 500px) {
+  nav {
+    padding: 30px;
+    font-size: 1.4rem;
+    width: 48%;
+  }
+  .login {
+    font-size: 15px;
+  }
+  .container2 p {
+    text-align: center;
+    width: 48%;
+  }
+  .msg {
+    width: 48%;
+  }
+  .subject {
+    width: 48%;
+  }
+}
 .event {
   display: flex;
   justify-content: space-around;
@@ -419,24 +431,5 @@ p {
   .event .log-in input {
     margin: 5px;
     padding: 5px;
-
-@media (max-width: 500px) {
-  nav {
-    padding: 30px;
-    font-size: 1.4rem;
-    width: 48%;
-  }
-  .login {
-    font-size: 15px;
-  }
-  .container2 p {
-    text-align: center;
-    width: 48%;
-  }
-  .msg {
-    width: 48%;
-  }
-  .subject {
-    width: 48%;
   }
 }
